@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script lang="javascript" src="action.js">
+    //script is called from external file
+</script>
+<body>
+<form name="frmAlert">
+    <label for="lblName" id="lblName">...</label>
+    <input type="text" id="txtName">
+    <input type="button" onclick="showName()" name="btnClick" value="Click Me to See Alert">
+</form>
+
+<script>
+   function showName() {
+    console.log("test")
+    alert('Button Cliked')
+    //use innerHTML, to change html content...
+    document.getElementById("lblName").innerHTML=document.getElementById("txtName").value
+} 
+
+document.write(5+6);
+window.alert(5+6);
+
+</script>
+</body>
+</html>
