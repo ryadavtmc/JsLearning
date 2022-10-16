@@ -53,5 +53,7 @@ arr.push(value)
 
 console.log(arr[0])
 
+console.log("Git learning")
+
 
 

@@ -13,3 +13,5 @@ paymentMode = "Visa Card";
 console.log(fullName);
 console.log(paymentMode);
 
+console.log("Git learning")
+
